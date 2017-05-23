@@ -1,0 +1,8 @@
+version: "3"
+services:
+    proxy:
+        build: proxy/
+    nodejs-version1:
+        build: nodejs-version1/
+    nodejs-version2:
+        build: nodejs-version2/
